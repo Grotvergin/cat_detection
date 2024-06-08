@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.header {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header h1 {
+    color: #444;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#status-label {
+    color: #555;
+    margin-right: 10px;
+}
+
+#status {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: none;
+    min-width: 200px;
+}
+
+.centered {
+    text-align: center;
+}
+
+#predictions {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.controls input[type="button"] {
+    padding: 15px 30px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+}
+
+.controls input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
